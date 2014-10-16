@@ -20,6 +20,6 @@ Application.run([
 
 Application.constant('Config', {
 	base: {
-		api: 'http://localhost:8080/KahunaService/rest/el-local/chat/v1'
+		api: ''
 	}
 });
