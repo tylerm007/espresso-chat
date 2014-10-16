@@ -1,0 +1,130 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+.login-form{margin:0 auto; max-width: 300px;}
+input{margin:5px 0;}
+.cursor-pointer{cursor:pointer;}
+.float-left{float:left;}
+.float-right{float:right;}
+.clear-right{clear:right;}
+.center{text-align:center; margin:0 auto;}
+.app-content .table .table-button:hover{background: rgba(0,0,0,.5); color:#fff;}
+.shrink-text{font-size:.8em;}
+.small-text{font-size:.66em;}
+.tiny-text{font-size:.5em;}
+.text-align-center{text-align:center;}
+ul{margin-bottom:0px;}
+
+.navigation{margin:15px 0;}
+.horizontal-list{list-style:none;}
+.horizontal-list li{display:inline;}
+
+html,body{height:100%; font-family: 'Oswald', sans-serif; font-size: 1.1em;
+	background-color: rgb(40, 40, 40);
+	background-image: url(http://www.espressologic.com/wp-content/themes/espresso-2014/images/stressed_linen.png);
+}
+.content-container{background: #fff; padding: 30px 0;}
+.content-container h2{margin-top:0;}
+.app-header{
+	background-image: url(http://www.espressologic.com/wp-content/themes/espresso-2014/images/stressed_linen.png);
+	color: rgb(204, 204, 204);
+	font-size: 14px;
+	text-shadow:1px 2px 0px rgba(255,255,255,.3);
+	opacity:.95;
+	font-weight: normal;
+	line-height: 20px;
+	width: 100%;
+}
+.app-header h2{color:#ededed;}
+.site-footer{
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: rgb(40, 40, 40);
+	background-image: url(http://www.espressologic.com/wp-content/themes/espresso-2014/images/stressed_linen.png);
+	background-origin: padding-box;
+	background-size: auto;
+	box-sizing: border-box;
+	color: rgb(204, 204, 204);
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 20px;
+	padding-bottom: 30px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 30px;
+	width: 100%;
+}
+.site-footer .site-info{margin-bottom:15px;}
+.site-footer .row{margin:0 auto;}
+.widget-title{
+	border-bottom-color: rgb(136, 136, 136);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	box-sizing: border-box;
+	clear: both;
+	color: rgb(136, 136, 136);
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	height: 25px;
+	line-height: 19.200000762939453px;
+	margin-bottom: 8px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-bottom: 5px;
+	width: 160px;
+}
+.menu{
+	box-sizing: border-box;
+	color: rgb(204, 204, 204);
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 23.200000762939453px;
+	list-style-type: disc;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	width: 160px;
+}
+.menu-item{
+	box-sizing: border-box;
+	display: list-item;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	height: 24px;
+	line-height: 18.850000381469727px;
+	list-style-type: none;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-bottom: 3px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 3px;
+	text-align: left;
+	width: 160px;
+}
+.menu-item a{color: rgb(204, 204, 204);}
+
+.board-nav-icon i{position:relative; top:5px;}
+.even-true{background: #f0f0f0;}
+.light-icon-bg i{padding:5px; border-radius:5px; background:#d5d5d5;}
+.board-item{padding-top:10px;}
+.line-item{padding-top:10px;}

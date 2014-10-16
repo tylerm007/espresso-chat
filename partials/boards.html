@@ -1,0 +1,31 @@
+<div class="row">
+	<div class="col-xs-12">
+		<h2>Message Boards</h2>
+		<div class="board-container" ng-repeat="board in boardsList">
+			<div class="row board-item even-{{$even}}" ng-click="boards.activate(board);">
+				<div class="col-xs-12">
+					<p>{{board.title}}</p>
+					<p class="float-left shrink-text">
+						<span ng-mouseover="users.getInfo($event, board);">{{board.fk_creator}}</span>
+					</p>
+					<p class="float-right shrink-text">
+						<i class="fa fa-comment"></i>
+						<span class="comment-count">{{board.comments}}</span>
+						<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+						<span class="">{{board.time | date:'hh:mm'}}</span>
+						<i class="fa fa-lock" ng-hide="board.open" ng-click="boards.toggleStatus(board);"></i>
+						<i class="fa fa-unlock" ng-hide="!board.open" ng-click="boards.toggleStatus(board);"></i>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div>
+			<form ng-submit="boards.add();" class="form-inline" role="form">
+				<div class="form-group">
+					<input class="form-control form-inline" placeholder="Title" type="text" ng-model="board.title"/>
+					<input class="btn btn-default btn-block input-group-addon_" type="submit" value="New Board"/>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,27 @@
+<div class="row">
+	<div class="col-xs-12">
+		<h2>{{board.title}}</span></h2>
+		<div class="" ng-if="board">
+			<div class="line-container" ng-repeat="dialogue in dialogueList">
+				<div class="row line-item even-{{$even}}"  ng-click="lines.like(dialogue);">
+					<div class="col-xs-2 light-icon-bg">
+						<p><i class="fa fa-user"></i></p>
+						<p class="tiny-text text-align-center">{{dialogue.fk_creator}}</p>
+					</div>
+					<div class="col-xs-8">
+						<p>{{dialogue.message}}</p>
+					</div>
+					<div class="col-xs-2 text-align-center">
+						<p><i class="fa fa-thumbs-up"><span class="small-text">{{dialogue.likes}}</span></i></p>
+						<p class="tiny-text">{{dialogue.time | date:'hh:mm'}}</p>
+					</div>
+				</div>
+			</div>
+			
+			<form ng-submit="lines.add();">
+				<input class="form-control" placeholder="Message" type="text" ng-model="line.message"/>
+				<input class="btn btn-default btn-block" type="submit" value="Post Message"/>
+			</form>
+		</div>
+	</div>
+</div>
